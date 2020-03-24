@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14891" started-at="2020-02-05T11:40:55 IST" finished-at="2020-02-05T11:41:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14891" started-at="2020-02-05T11:40:55 IST" finished-at="2020-02-05T11:41:10 IST">
+      <class name="loginTestCases.usingDatadriven">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:loginTestCases.usingDatadriven@6ddf90b0]" name="openBrowser" is-config="true" duration-ms="10207" started-at="2020-02-05T11:40:55 IST" finished-at="2020-02-05T11:41:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.usingDatadriven@6ddf90b0]" name="loginTestCase" duration-ms="1439" started-at="2020-02-05T11:41:06 IST" data-provider="loginData" finished-at="2020-02-05T11:41:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.usingDatadriven@6ddf90b0]" name="loginTestCase" duration-ms="700" started-at="2020-02-05T11:41:07 IST" data-provider="loginData" finished-at="2020-02-05T11:41:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.usingDatadriven@6ddf90b0]" name="loginTestCase" duration-ms="952" started-at="2020-02-05T11:41:08 IST" data-provider="loginData" finished-at="2020-02-05T11:41:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:loginTestCases.usingDatadriven@6ddf90b0]" name="loginTestCase" duration-ms="722" started-at="2020-02-05T11:41:09 IST" data-provider="loginData" finished-at="2020-02-05T11:41:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:loginTestCases.usingDatadriven@6ddf90b0]" name="afterTest" is-config="true" duration-ms="704" started-at="2020-02-05T11:41:09 IST" finished-at="2020-02-05T11:41:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- loginTestCases.usingDatadriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
