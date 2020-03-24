@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Test Suite">
+
+<test name = "pending leave request Test case">
+<classes>
+<class name = "testCases.Pending_leave_Request"></class>
+</classes>
+</test>
+
+<test name = "user role test case">
+<classes>
+<class name = "testCases.user_Role"></class>
+</classes>
+</test>
+
+
+</suite>
