@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Test Suite" verbose="2" parallel ="methods" thread-count ="2" > 
+ <!-- verbose is used to report timings for every methods -->
+
+<test name= "Test Cases">
+<parameter name="Name" value="Mithra"></parameter>    <!-- This is to pass Parameter  -->
+
+<!-- <groups>     // this code is to run particular methods
+  <run>
+    <include name="Apple"></include> 
+    <include name="Moto"></include>
+          </run>
+</groups>
+ -->
+<classes>
+<class name="testtNG.paraMeterization"></class>  <!-- This is to run class in XML file -->
+
+
+</classes>
+
+</test>
+ 
+</suite>
+
+<!-- <class name = "testtNG.dependancyManage"></class> // Package Name.Class Name. 
+<class name = "testtNG.priorityExample"></class>
+<class name = "testtNG.sampleTest"></class>
+<class name="testtNG.grouping"></class>
+ -->

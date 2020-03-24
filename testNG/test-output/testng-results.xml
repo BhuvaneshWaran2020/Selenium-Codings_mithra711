@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97" started-at="2020-02-28T11:23:27 IST" finished-at="2020-02-28T11:23:27 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97" started-at="2020-02-28T11:23:27 IST" finished-at="2020-02-28T11:23:27 IST">
+      <class name="testtNG.priorityExample">
+        <test-method status="PASS" signature="startACar()[pri:0, instance:testtNG.priorityExample@5383967b]" name="startACar" duration-ms="19" started-at="2020-02-28T11:23:27 IST" finished-at="2020-02-28T11:23:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startACar -->
+        <test-method status="PASS" signature="putFirstGear()[pri:1, instance:testtNG.priorityExample@5383967b]" name="putFirstGear" duration-ms="2" started-at="2020-02-28T11:23:27 IST" finished-at="2020-02-28T11:23:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFirstGear -->
+        <test-method status="PASS" signature="putSecondGear()[pri:2, instance:testtNG.priorityExample@5383967b]" name="putSecondGear" duration-ms="2" started-at="2020-02-28T11:23:27 IST" finished-at="2020-02-28T11:23:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSecondGear -->
+        <test-method status="PASS" signature="putThirdGear()[pri:3, instance:testtNG.priorityExample@5383967b]" name="putThirdGear" duration-ms="2" started-at="2020-02-28T11:23:27 IST" finished-at="2020-02-28T11:23:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putThirdGear -->
+        <test-method status="PASS" signature="putFourthGear()[pri:4, instance:testtNG.priorityExample@5383967b]" name="putFourthGear" duration-ms="2" started-at="2020-02-28T11:23:27 IST" finished-at="2020-02-28T11:23:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFourthGear -->
+      </class> <!-- testtNG.priorityExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
