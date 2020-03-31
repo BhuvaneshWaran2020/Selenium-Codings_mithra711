@@ -16,8 +16,8 @@
 </groups>
  -->
 <classes>
-<class name="testtNG.paraMeterization"></class>  <!-- This is to run class in XML file -->
-
+<!-- <class name="testtNG.paraMeterization"></class> -->  <!-- This is to run class in XML file -->
+<class name = "testtNG.sampleTest"></class>
 
 </classes>
 
